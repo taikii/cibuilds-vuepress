@@ -1,0 +1,8 @@
+FROM node:alpine
+
+ENV HUGO_VERSION=%%VUEPRESS_VERSION%%
+
+RUN npm install -g vuepress@${VUEPRESS_VERSION}
+
+EXPOSE 8080
+
