@@ -1,8 +1,0 @@
-FROM node:alpine
-
-ENV VUEPRESS_VERSION=%%VUEPRESS_VERSION%%
-
-RUN npm install -g vuepress@${VUEPRESS_VERSION}
-
-EXPOSE 8080
-
