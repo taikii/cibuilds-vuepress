@@ -1,4 +1,6 @@
-FROM node:alpine
+FROM node:11.9.0-alpine
+
+MAINTAINER taikii
 
 ENV VUEPRESS_VERSION=0.14.8
 
